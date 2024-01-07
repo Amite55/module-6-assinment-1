@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul ol{
+    list-style-type: none;
+}
+
+
+
+/* ==========Header part start hare============== */
+
+
+.head-contact{
+    background-image: url("../images/head-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    height: 550px;
+    width: auto;
+    text-align: center;
+    
+    
+}
+.head-title{
+    margin-top: 180px;
+    color: #fff;
+}
+.head-title h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.head-title h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+.off{
+    text-align: center;
+    margin: 100px 0;
+}
+.off-title h1{
+    font-size: 90px;
+    font-weight:700 ;
+    color: #F00;
+    margin-bottom: 50px;
+}
+.off-title p{
+    font-size:24px ;
+    font-weight:500 ;
+    color:#F00 ;
+    margin-top: 0;
+    margin-bottom:15px ;
+}
+.off-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    color:#070211 ;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+/* ==========Header part end hare============== */
+
+
+/* -------------midnight party section start hare------------------ */
+
+.party-contact{
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.p-contact h1{
+    color:#fff ;
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-top: 125px;
+    margin-left: 125px;
+}
+.p-contact p{
+    color: rgba(255, 255, 255, 0.80);
+    font: 18px;
+    font-weight: 400;
+    margin-left: 125px;
+    margin-top: 25px;
+}
+.p-contact .p-btn{
+    margin: 50px 0 0 155px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.p-contact .p-btn:hover{
+    background-color: #F00;
+    color: #fff;
+    transition: all linear 0.3s;
+    border: 0;
+    
+}
+.p-img{
+    width: 300px;
+    height: 400px;
+    margin-top:110px ;
+}
+
+
+.p-info{
+    margin-top: 220px;
+    text-align: center;
+}
+.p-info span{
+    color: #F00;
+}
+.p-info h5{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.p-info .p-btn{
+    margin-top: 65px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.p-info .p-btn:hover{
+    background-color: #F00;
+    color: #fff;
+    transition: all linear 0.3s;
+    border: 0;
+}
+
+/* -------------midnight party section end hare------------------ */
+
+
+/* ==============main section start hare ====================== */
+
+.main-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap: 100px;
+}
+.main-desc{
+    margin-left: 20px;
+}
+.main-desc p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size:20px ;
+    font-weight: 400;
+    line-height: 32px;   
+}
+.main-desc #main-p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.main-desc h2{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.main-profile {
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 30px;
+}
+.main-into{
+    
+}
+.main-into h4{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F00;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.main-into p{
+    color:rgba(7, 2, 17, 0.60) ;
+    font-size:20px ;
+    font-weight: 400;
+    margin-bottom: 45px;
+
+}
+
+/* ==============main section end hare ====================== */
